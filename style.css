@@ -2,12 +2,13 @@
     box-sizing: border-box;
     background-color: white;
 }
-
+/* Header CSS*/
 header {
     padding: 5px;
     text-align: center;
 }
 
+/* Navigation Bar CSS*/ 
 nav {
     display: flex;
     justify-content: space-between;
@@ -26,4 +27,23 @@ nav ul {
 
 nav a:hover {
     color: rgb(252, 146, 127);
+}
+
+/* Sections CSS */ 
+
+main {
+    display: flex;
+    Margin-top: 2%;
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-width: 1px;
+}
+
+.card img {
+    width: 100%;
+    min-width: 400px;
 }
