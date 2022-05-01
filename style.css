@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: white;
+    color: black;
+    font-style: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a:hover {
+    color: rgb(252, 146, 127);
+}
