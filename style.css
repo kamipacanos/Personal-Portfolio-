@@ -2,48 +2,32 @@
     box-sizing: border-box;
     background-color: white;
 }
-/* Header CSS*/
+
 header {
     padding: 5px;
     text-align: center;
 }
 
-/* Navigation Bar CSS*/ 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: white;
-    color: black;
-    font-style: bold;
+.AboutMe {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(134, 134, 255);
+    color: aliceblue;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+.AboutMe image {
+    height: 200px;
+    width: 50px;
 }
 
-nav a:hover {
-    color: rgb(252, 146, 127);
+.AboutMe h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-/* Sections CSS */ 
-
-main {
-    display: flex;
-    Margin-top: 2%;
-}
-
-.card {
-    flex: 1 0 0;
-    padding: 10px;
-    text-align: center;
-    border-width: 1px;
-}
-
-.card img {
-    width: 100%;
-    min-width: 400px;
+.float-left {
+    float:left;
+    margin-right: 25px;
 }
