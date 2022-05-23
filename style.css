@@ -8,13 +8,33 @@ header {
     text-align: center;
 }
 
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: rgb(255, 202, 136); 
+}
+
 .AboutMe {
     margin-top: 40px;
     margin-bottom: 20px;
     padding: 10px;
     height: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(255, 223, 183);
+    background-color:rgb(255, 216, 171);
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .MyWork {
@@ -22,8 +42,9 @@ header {
     margin-bottom: 20px;
     padding: 10px;
     height: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(255, 213, 162);
+    background-color: rgb(255, 209, 153);
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .ContactMe {
@@ -31,15 +52,16 @@ header {
     margin-bottom: 20px;
     padding: 10px;
     height: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(255, 202, 136);
+    background-color: rgb(255, 189, 109);
+    margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 
 .AboutMe h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    background-color: rgb(255, 223, 183);
+    background-color: rgb(255, 216, 171);
     color: white;
     text-align: center;
 }
@@ -47,7 +69,7 @@ header {
 .MyWork h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    background-color: rgb(255, 213, 162);
+    background-color: rgb(255, 209, 153);
     color: white;
     text-align: center;
 }
@@ -55,12 +77,34 @@ header {
 .ContactMe h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    background-color: rgb(255, 202, 136);
+    background-color: rgb(255, 189, 109);
     color: white;
     text-align: center;
 }
 
-.float-left {
+.aboutMeP {
+    color: white;
+    background-color: rgb(252, 232, 208);
+
+}
+
+.aboutMePic {
     float:left;
     margin-right: 25px;
+    height: 450px;
+    width: 225px; 
+}
+
+.myWorkPic {
+    float: right;
+    margin-right: 25px;
+    height: 375px;
+    width: 375px;
+}
+
+.contactMePic {
+    float: left;
+    margin-right: 25px;
+    height: 450px;
+    width: 225px;
 }
