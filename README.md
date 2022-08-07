@@ -24,4 +24,12 @@ GIVEN I need to sample a potential employee's previous work
 (6) WHEN I resize the page or view the site on various screens and devices
     THEN I am presented with a responsive layout that adapts to my viewport
 
-https://kamipacanos.github.io/Module_2_Challenge/
+# Live Link 
+
+https://kamipacanos.github.io/Personal-Portfolio-/
+
+
+# Website Screenshot 
+
+![](portfolio.png) 
+
